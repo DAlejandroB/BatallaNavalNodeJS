@@ -1,0 +1,90 @@
+body {
+  background-color: #404040;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gameTitle{
+  align-self: center;
+  color: white;
+}
+.boards{
+  display: flex;
+  flex-direction: row;
+}
+.row{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+h1{
+  margin: 0 1px; padding: 0 1px;
+  text-align: center;
+  width: 20px;
+  font-size: 20px;
+}
+.tile{
+  padding: 1px; margin: 1px;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border: #000 1px;
+  background-color: #37d7ff;
+}
+
+#foeBoard .tile:hover {
+  background-color: #a1ecff;
+}
+.shipTile{
+  padding: 1px; margin: 1px;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border: #000 1px;
+  background-color: #101010;
+}
+.miss{
+  padding: 1px; margin: 1px;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border: #000 1px;
+  align-content: center;
+  background-color: #c43b60;
+  color: white;
+}
+
+.miss text{
+  padding-left: 2.5px;
+}
+
+.hit{
+  padding: 1px; margin: 1px;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border: #000 1px;
+  background-color: #00ff55;
+}
+#joinButton{
+  background-color: #393939;
+  color: white;
+  font-size: large;
+  padding: 5px 20px;
+  margin-top: 50px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#joinButton:hover{
+  background-color: #6c6c6c;
+}
+
+#nameInput{
+  background-color: #393939;
+  border-radius: 5px;
+  font-size: medium;
+  color: #8a8a8a;
+  padding: 5px 10px;
+}
