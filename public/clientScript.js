@@ -1,4 +1,4 @@
-const socket = io.connect("http://192.168.1.10:3030")
+const socket = io.connect("http://192.168.137.13:3030")
 
 socket.on('message', function(message){
   document.getElementById("status").innerText = message;
